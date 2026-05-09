@@ -1,0 +1,248 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 100%;
+   
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 0vh;
+
+
+}
+
+
+
+.cabecalho-logo img{
+    border-radius: 13px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+.cabecalho-logo img,
+.cabecalho-voltar img {
+    width: 70px;
+    max-width: 70px;
+    height: auto; 
+ 
+    transition: transform 200ms ease-in-out;
+}
+
+
+
+
+.h1-cadastrar{
+    font-size: 10px;
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; 
+
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+main{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    background-color: rgb(255, 255, 255);
+
+    
+    width: 100%;
+    height: 100vh;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+/*parte de fora formulario*/
+
+
+.main-globo h1{                    /*TITULO CADASTRO*/
+    font-size: 30px;            
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+
+    
+    
+
+}
+
+
+.main-globo{                     /*QUADRADO GLOBAL*/
+    
+    width: 100%;
+    max-width: 600px;
+    height: auto;     
+    
+
+    border-radius: 40px;
+    box-shadow: 0 4px 15px 3px rgba(0, 0, 0, 0.3);
+    
+    
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*parte das informaçoes formulario*/
+
+
+
+form{
+    padding: 20px 70px 10px 40px;  /*mudar o tamanho horizontal dos inputs/labels */
+}
+
+
+
+
+
+.formulario-respostas{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 10px 0;
+    
+    
+
+}
+
+
+.formulario-respostas input{
+    width: 100%;                       /*INPUTS PARA COLOCAR INFO (dentro)*/
+    height: 100%;
+
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px 3px rgba(0, 0, 0, 0.2);
+    border: none;
+    outline: none;
+    
+    padding: 20px 0px 20px 30px;
+    
+    
+
+
+
+    color: black;   /*letras digitadas dentro do input*/
+    background-color: transparent;
+    
+
+}
+
+
+
+.formulario-respostas input::placeholder {
+    color: black; /*letras dentro do input*/
+  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*parte de genero*/
+
+h6{
+    font-size: 20px;            
+    text-align: center;
+    padding: 20px;
+}
+
+.generos-input{
+    padding: 8px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*parte de botao cadastrar*/
+
+.cadastrar-botao{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 10px 70px;
+
+    font-size: 20PX;
+    font-weight: 600;
+    
+    border: none;
+    box-shadow: 0 4px 15px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 9px;
+    background-color: white;
+
+
+    cursor: pointer;
+}
+
+
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.cadastrar-botao:hover{
+    background-color: rgb(207, 169, 0);
+    transition: 1s;
+    
+}
